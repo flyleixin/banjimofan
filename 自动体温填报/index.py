@@ -1,7 +1,7 @@
 # -*- codeing = urf-8 -*-
 # @Time :2022/4/24
 # @Author:LeiXin
-# @File : Nchu.py
+# @File : index.py
 # @SoftWore : PyCharm
 # 十分感谢W01fh4cker大佬，本项目基于W01fh4cker开源项目nuist-classcube-auto-report
 # 本程序的所用内容仅供学习交流，请下载后24小时内删除!
@@ -34,7 +34,7 @@ ua = {
 # 这里是你的班级魔方账号(直接填写，不用引号）
 phonenumber =
 
-# 这里是你的班级魔方密码（直接填写，不用引号)
+# 这里是你的班级魔方密码（直接填写，可以加上引号)
 # 忘记了在这里重置找回http://banjimofang.com/student/login?ref=%2Fstudent
 password =
 
