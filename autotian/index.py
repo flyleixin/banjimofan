@@ -1,7 +1,7 @@
 # -*- codeing = urf-8 -*-
 # @Time :2022/4/24
 # @Author:LeiXin
-# @File : Nchu.py
+# @File : index.py
 # @SoftWore : PyCharm
 # 十分感谢W01fh4cker大佬，本项目基于W01fh4cker开源项目nuist-classcube-auto-report
 # 本程序的所用内容仅供学习交流，请下载后24小时内删除!
