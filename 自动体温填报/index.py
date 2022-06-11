@@ -24,20 +24,22 @@ from smtplib import SMTP_SSL
 session = requests.session()
 # 登陆的地址
 login_url = 'http://banjimofang.com/student/login?ref=%2Fstudent'
-# 填报的链接（需要修改）
-add_url = 'http://banjimofang.com/student/course/43535/covid19d3'
+
 ua = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50'}
 
 
-
-# 这里是你的班级魔方账号(直接填写，不用引号）
+# 填报的链接（需要修改）,这里为电脑版进去体温填报页面的网址
+add_url = 'http://banjimofang.com/student/course/43535/covid19d3'
+# 这里是你的班级魔方账号(直接填写，可以加上引号）
 phonenumber =
 
 # 这里是你的班级魔方密码（直接填写，可以加上引号)
 # 忘记了在这里重置找回http://banjimofang.com/student/login?ref=%2Fstudent
 password =
 
+
+# 如果不需要通知，下面的sender,pw,receivers可以空着
 # 这里是你的发信人，告诉你程序成功了没
 sender =""
 # 这里是QQ邮箱的授权码，不明白可以百度
